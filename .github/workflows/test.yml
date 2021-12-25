@@ -1,0 +1,8 @@
+name:  First github actions
+on: [] #push,pull_request,deployment_status
+jobs: 
+    print-hello-world:
+        runs-on: ubantu-latest
+        steps:
+            - run: echo "Hello world"
+            - run: echo "this is step number 2"
