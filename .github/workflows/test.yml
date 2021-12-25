@@ -9,7 +9,9 @@ jobs:
               with:
                 node-version: '14'
             - name: Build a project
-                run: yarn build
+              run: yarn build
+            - name: Complete setup
+              run: echo "successfully build"
           
             
            
