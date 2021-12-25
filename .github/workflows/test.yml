@@ -1,5 +1,5 @@
 name:  First github actions
-on: [] #push,pull_request,deployment_status
+on: [push] #push,pull_request,deployment_status
 jobs: 
     print-hello-world:
         runs-on: ubantu-latest
