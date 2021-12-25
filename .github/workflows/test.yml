@@ -10,7 +10,6 @@ jobs:
                 node-version: '14'
             - name: Build a project
                 run: yarn build
-            - name: Setup finish
-                run: echo "hurray"
+          
             
            
